@@ -22,7 +22,7 @@ The message types that are provided in the rosbag is
 A step by step tutorial including documentation (which fuses different sensors) is provided in the useful references at the bottom. Reading through these should help you setup the package properly with configuration files. 
 
 ## Submission
-All your project
+All your project files including configuration files, launch files, any code you've written, and steps to run them and view results if you've added anything different. 
 
 ## Useful References
 
