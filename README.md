@@ -1,13 +1,15 @@
 # AV NMP Motion Estimation/Mapping
 
 ## Introduction
-The motion estimation and mapping team seeks to localize where the car by fusing sensors such as GPS, IMU, wheel speed sensors (and others) and mapping with LIDAR sensors. In this NMP you'll learn basics of ROS2 and using the robot_localization package for sensor fusion. 
+The motion estimation and mapping team seeks to localize the position of the car by fusing data from sensors such as the GPS, IMU, wheel speed sensor (and others) with the mapping from LIDAR sensors. In this new member project, you will learn the basics of ROS2 and using the robot_localization package for sensor fusion. 
 
 ## Brief
 ### Installation
 Start by installing ROS2 Galactic and read through the docs to learn the basics of nodes, topics, services, rosbags etc. (Don't need to cover all of it, just could learn as you go along).
 
 ROS2: https://docs.ros.org/en/galactic/Installation.html#installationguide
+
+Note: Ros2 Galactic is the latest version of Ros2. It is backwards compatible, so it is completely fine if you have earlier version of Ros2 e.g. Ros2-Foxy
 
 ### The Task
 The task is to use the robot_localization package (which implements an EKF for you already) and to set it up with a provided rosbag2 (a collection of data) and to output the filtered data. You can install robot_localization package after installing ROS2 by running the command:
