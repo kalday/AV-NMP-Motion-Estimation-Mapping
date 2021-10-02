@@ -49,3 +49,5 @@ https://roboticsbackend.com/ros2-yaml-params/
 
 The parameters that can be modified on ekf_localization_node can be found here
 http://docs.ros.org/en/melodic/api/robot_localization/html/state_estimation_nodes.html
+
+A sample configuration file for this node is here: https://github.com/cra-ros-pkg/robot_localization/blob/foxy-devel/params/ekf.yaml
