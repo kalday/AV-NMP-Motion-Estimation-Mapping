@@ -33,3 +33,20 @@ All your project files including configuration files, launch files, any code you
 robot_localization docs: http://docs.ros.org/en/melodic/api/robot_localization/html/index.html#
 
 Useful tutorial covering similar concepts: https://automaticaddison.com/sensor-fusion-using-the-robot-localization-package-ros-2/
+
+ROS2 Docs
+- Configuring ROS environment: https://docs.ros.org/en/galactic/Tutorials/Configuring-ROS2-Environment.html
+
+Just understanding the below concepts and the commands to interact with them should be enough (but feel free to execute them on the turtlesim if you want).
+- ROS2 Nodes: https://docs.ros.org/en/galactic/Tutorials/Understanding-ROS2-Nodes.html
+- ROS2 Topics: https://docs.ros.org/en/galactic/Tutorials/Topics/Understanding-ROS2-Topics.html
+- ROS2 Actions: https://docs.ros.org/en/rolling/Tutorials/Understanding-ROS2-Actions.html
+- ROS2 Param: https://docs.ros.org/en/galactic/Tutorials/Parameters/Understanding-ROS2-Parameters.html
+- ROS2 Launch Files (not necessary but could make life easier so you don't have to enter a million commands): https://docs.ros.org/en/galactic/Tutorials/Launch-Files/Creating-Launch-Files.html
+
+Param files are how you're going to be setting up this ROS2 node. These are .yaml files that allow you to customise how the node functions. This is a pretty important bit for this project so here's an another tutorial explaining them in a bit more depth. Its also explained in the sensor fusion tutorial above
+
+https://roboticsbackend.com/ros2-yaml-params/
+
+The parameters that can be modified on ekf_localization_node can be found here
+http://docs.ros.org/en/melodic/api/robot_localization/html/state_estimation_nodes.html
