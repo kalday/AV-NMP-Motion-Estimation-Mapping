@@ -40,7 +40,6 @@ ROS2 Docs
 Just understanding the below concepts and the commands to interact with them should be enough (but feel free to execute them on the turtlesim if you want).
 - ROS2 Nodes: https://docs.ros.org/en/galactic/Tutorials/Understanding-ROS2-Nodes.html
 - ROS2 Topics: https://docs.ros.org/en/galactic/Tutorials/Topics/Understanding-ROS2-Topics.html
-- ROS2 Actions: https://docs.ros.org/en/rolling/Tutorials/Understanding-ROS2-Actions.html
 - ROS2 Param: https://docs.ros.org/en/galactic/Tutorials/Parameters/Understanding-ROS2-Parameters.html
 - ROS2 Launch Files (not necessary but could make life easier so you don't have to enter a million commands): https://docs.ros.org/en/galactic/Tutorials/Launch-Files/Creating-Launch-Files.html
 
