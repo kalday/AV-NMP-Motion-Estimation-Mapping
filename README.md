@@ -21,6 +21,8 @@ The message types that are provided in the rosbag is
 
 A step by step tutorial including documentation (which fuses different sensors) is provided in the useful references at the bottom. Reading through these should help you setup the package properly with configuration files. 
 
+Its important to note you're not implementing EKF yourself (there is a ROS2 node already that does it for you http://docs.ros.org/en/noetic/api/robot_localization/html/state_estimation_nodes.html). You're just configuring this ROS2 node such that it works with the sensor data thats provided to you in a rosbag. 
+
 ## Submission
 All your project files including configuration files, launch files, any code you've written, and steps to run them and view results if you've added anything different. 
 
