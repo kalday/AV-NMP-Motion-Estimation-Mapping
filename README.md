@@ -12,9 +12,12 @@ ROS2: https://docs.ros.org/en/galactic/Installation.html#installationguide
 Note: Ros2 Galactic is the latest version of Ros2. It is backwards compatible, so it is completely fine if you have earlier version of Ros2 e.g. Ros2-Foxy
 
 ### The Task
+
 The task is to use the robot_localization package (which implements an EKF for you already) and to set it up with a provided rosbag2 (a collection of data) and to output the filtered data. You can install robot_localization package after installing ROS2 by running the command:
 
 `sudo apt install ros-[ros-version]-robot-localization` replace [ros-version] with galactic or foxy or whatever version of ROS2 you're using. 
+
+ROSBAG Link: https://drive.google.com/drive/folders/1pEx0RrZlvdcZNCdEVQhpvi4UzvTHB7Y5?usp=sharing
 
 The message types that are provided in the rosbag is
 - sensor_msgs/Imu (IMU data)
