@@ -146,12 +146,4 @@ ekf_filter_node:
                                       0.0,    0.0,    0.0,    0.0,    0.0,    0.0,    0.0,    0.0,    0.0,    0.0,     0.0,     0.0,     0.0,    1e-9, 0.0,
                                       0.0,    0.0,    0.0,    0.0,    0.0,    0.0,    0.0,    0.0,    0.0,    0.0,     0.0,     0.0,     0.0,    0.0,    1e-9]
 
-# name of node 
-  # ros_parameters 
-
 # ====================== NODE 2 ====================== #
-# ekf_localization_node:
-# # frequency 
-# # sensor timeout 
-# # two d mode
-# # frame
