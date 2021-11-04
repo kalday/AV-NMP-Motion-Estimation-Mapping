@@ -1,3 +1,10 @@
+# ==================================================== # 
+# Redback AV NMP Motion Estimation/Mapping
+#
+# Author: Kyra Alday (z5208628)
+# Date: 29 October 2021
+# ==================================================== #
+
 # Copyright 2018 Open Source Robotics Foundation, Inc.
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -11,6 +18,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# ==================================================== #
+
 from launch import LaunchDescription
 import launch_ros.actions
 import os
@@ -21,11 +30,37 @@ import launch.actions
 from launch.actions import DeclareLaunchArgument
 from ament_index_python.packages import get_package_share_directory
 
+from launch_ros.actions import Node
+
+# ==================================================== #
+
+
+# def generate_launch_description():
+#     ld = LaunchDescription()
+
+#     config = os.path.join(
+#         get_package_share_directory('robot_localization'),
+#         'config',
+#         'z5208628-ekf.yaml'
+#     )
+
+#     node = Node (
+#         package = 'robot_localization',
+#         name = 'ekf_filter_node',
+#         executable = 'z5208628-ekf',
+#         parameters = [config]
+#     )
+
+#     ld.add_action(node)
+
+#     return ld
+
 def generate_launch_description():
     robot_localization_dir = get_package_share_directory('robot_localization')
     parameters_file_dir = os.path.join(robot_localization_dir, 'params')
     parameters_file_path = os.path.join(parameters_file_dir, 'dual_ekf_navsat_example.yaml')
     os.environ['FILE_PATH'] = str(parameters_file_dir)
+    
     return LaunchDescription([
         launch.actions.DeclareLaunchArgument(
             'output_final_position',
