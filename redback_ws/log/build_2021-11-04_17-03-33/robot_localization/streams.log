@@ -1,0 +1,36 @@
+[0.062s] Invoking command in '/home/aldayk/redback_ws/build/robot_localization': /usr/bin/cmake /home/aldayk/redback_ws/src/robot_localization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/aldayk/redback_ws/install/robot_localization
+[0.397s] -- The C compiler identification is GNU 9.3.0
+[0.679s] -- The CXX compiler identification is GNU 9.3.0
+[0.703s] -- Check for working C compiler: /usr/bin/cc
+[0.962s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.967s] -- Detecting C compiler ABI info
+[1.221s] -- Detecting C compiler ABI info - done
+[1.286s] -- Detecting C compile features
+[1.286s] -- Detecting C compile features - done
+[1.295s] -- Check for working CXX compiler: /usr/bin/c++
+[1.697s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.700s] -- Detecting CXX compiler ABI info
+[1.994s] -- Detecting CXX compiler ABI info - done
+[2.045s] -- Detecting CXX compile features
+[2.047s] -- Detecting CXX compile features - done
+[2.052s] robot_localization: You did not request a specific build type: selecting 'RelWithDebInfo'.
+[2.087s] CMake Error at CMakeLists.txt:9 (find_package):
+[2.088s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.090s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.090s]   CMake did not find one.
+[2.090s] 
+[2.091s]   Could not find a package configuration file provided by "catkin" with any
+[2.091s]   of the following names:
+[2.091s] 
+[2.092s]     catkinConfig.cmake
+[2.092s]     catkin-config.cmake
+[2.092s] 
+[2.092s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.092s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.093s]   provides a separate development package or SDK, be sure it has been
+[2.093s]   installed.
+[2.093s] 
+[2.093s] 
+[2.094s] -- Configuring incomplete, errors occurred!
+[2.094s] See also "/home/aldayk/redback_ws/build/robot_localization/CMakeFiles/CMakeOutput.log".
+[2.104s] Invoked command in '/home/aldayk/redback_ws/build/robot_localization' returned '1': /usr/bin/cmake /home/aldayk/redback_ws/src/robot_localization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/aldayk/redback_ws/install/robot_localization

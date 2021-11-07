@@ -1,0 +1,4 @@
+Invoking command in '/home/aldayk/redback_ws/build/robot_localization': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/aldayk/redback_ws/build/robot_localization -- -j6 -l6
+Invoked command in '/home/aldayk/redback_ws/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/aldayk/redback_ws/build/robot_localization -- -j6 -l6
+Invoking command in '/home/aldayk/redback_ws/build/robot_localization': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/aldayk/redback_ws/build/robot_localization
+Invoked command in '/home/aldayk/redback_ws/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/aldayk/redback_ws/build/robot_localization

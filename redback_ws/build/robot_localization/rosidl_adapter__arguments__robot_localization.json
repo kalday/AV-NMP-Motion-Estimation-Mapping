@@ -1,0 +1,11 @@
+{
+  "package_name": "robot_localization",
+  "non_idl_tuples": [
+    "/home/aldayk/redback_ws/src/robot_localization:srv/FromLL.srv",
+    "/home/aldayk/redback_ws/src/robot_localization:srv/GetState.srv",
+    "/home/aldayk/redback_ws/src/robot_localization:srv/SetDatum.srv",
+    "/home/aldayk/redback_ws/src/robot_localization:srv/SetPose.srv",
+    "/home/aldayk/redback_ws/src/robot_localization:srv/ToggleFilterProcessing.srv",
+    "/home/aldayk/redback_ws/src/robot_localization:srv/ToLL.srv"
+  ]
+}
