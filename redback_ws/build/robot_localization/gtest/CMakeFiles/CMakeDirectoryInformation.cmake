@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/opt/ros/galactic/src/gtest_vendor")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/aldayk/redback_ws/build/robot_localization")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/aldayk/AV-NMP-Motion-Estimation-Mapping/redback_ws/build/robot_localization")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

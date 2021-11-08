@@ -6,5 +6,5 @@ C_FLAGS = -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu11
 
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"robot_localization\" -Drobot_localization__rosidl_typesupport_introspection_c_EXPORTS
 
-C_INCLUDES = -I/home/aldayk/redback_ws/build/robot_localization/rosidl_generator_c -I/home/aldayk/redback_ws/build/robot_localization/rosidl_typesupport_introspection_c -I/home/aldayk/redback_ws/src/robot_localization/include -I/usr/include/eigen3 -isystem /opt/ros/galactic/include 
+C_INCLUDES = -I/home/aldayk/AV-NMP-Motion-Estimation-Mapping/redback_ws/build/robot_localization/rosidl_generator_c -I/home/aldayk/AV-NMP-Motion-Estimation-Mapping/redback_ws/build/robot_localization/rosidl_typesupport_introspection_c -I/home/aldayk/AV-NMP-Motion-Estimation-Mapping/redback_ws/src/robot_localization/include -I/usr/include/eigen3 -isystem /opt/ros/galactic/include 
 

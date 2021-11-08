@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++14 -O2 -g -DNDEBUG   -Wall -Wextra -Wpedantic
 
 CXX_DEFINES = -DROS_PACKAGE_NAME=\"robot_localization\"
 
-CXX_INCLUDES = -I/opt/ros/galactic/src/gtest_vendor/include -I/home/aldayk/redback_ws/src/robot_localization/include -I/usr/include/eigen3 -I/opt/ros/galactic/src/gtest_vendor/. 
+CXX_INCLUDES = -I/opt/ros/galactic/src/gtest_vendor/include -I/home/aldayk/AV-NMP-Motion-Estimation-Mapping/redback_ws/src/robot_localization/include -I/usr/include/eigen3 -I/opt/ros/galactic/src/gtest_vendor/. 
 

@@ -34,33 +34,45 @@ def generate_launch_description():
             'output_location',
 	    default_value='~/dual_ekf_navsat_example_debug.txt'),
 	
+    # launch_ros.actions.Node(
+    #         package='robot_localization', 
+    #         executable='ekf_node', 
+    #         name='ekf_filter_node_odom',
+	#         output='screen',
+    #         parameters=[parameters_file_path],
+    #         remappings=[('odometry/filtered', 'odometry/local')]           
+    #        ),
+    # launch_ros.actions.Node(
+    #         package='robot_localization', 
+    #         executable='ekf_node', 
+    #         name='ekf_filter_node_map',
+	#         output='screen',
+    #         parameters=[parameters_file_path],
+    #         remappings=[('odometry/filtered', 'odometry/global')]
+    #        ),           
+    # launch_ros.actions.Node(
+    #         package='robot_localization', 
+    #         executable='navsat_transform_node', 
+    #         name='navsat_transform',
+	#         output='screen',
+    #         parameters=[parameters_file_path],
+    #         remappings=[('imu/data', 'imu/data'),
+    #                     ('gps/fix', 'gps/fix'), 
+    #                     ('gps/filtered', 'gps/filtered'),
+    #                     ('odometry/gps', 'odometry/gps'),
+    #                     ('odometry/filtered', 'odometry/global')],
+    #        ),
+
+    # additional for RedBack
     launch_ros.actions.Node(
             package='robot_localization', 
-            executable='ekf_node', 
-            name='ekf_filter_node_odom',
+            executable='ekf_filter_node', 
+            name='ekf_filter',
 	        output='screen',
             parameters=[parameters_file_path],
-            remappings=[('odometry/filtered', 'odometry/local')]           
-           ),
-    launch_ros.actions.Node(
-            package='robot_localization', 
-            executable='ekf_node', 
-            name='ekf_filter_node_map',
-	        output='screen',
-            parameters=[parameters_file_path],
-            remappings=[('odometry/filtered', 'odometry/global')]
-           ),           
-    launch_ros.actions.Node(
-            package='robot_localization', 
-            executable='navsat_transform_node', 
-            name='navsat_transform',
-	        output='screen',
-            parameters=[parameters_file_path],
-            remappings=[('imu/data', 'imu/data'),
-                        ('gps/fix', 'gps/fix'), 
-                        ('gps/filtered', 'gps/filtered'),
-                        ('odometry/gps', 'odometry/gps'),
-                        ('odometry/filtered', 'odometry/global')]           
+            remappings=[('fix', 'fix/z5208628'),
+                        ('husky_velocity_controller/odom', 'husky/z5208628'), 
+                        ('imu/data', 'imu/z5208628')]           
 
            )           
 ])

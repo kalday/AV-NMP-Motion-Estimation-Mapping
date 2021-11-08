@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++14 -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu++14
 
 CXX_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"robot_localization\" -Drobot_localization__rosidl_typesupport_introspection_cpp_EXPORTS
 
-CXX_INCLUDES = -I/home/aldayk/redback_ws/build/robot_localization/rosidl_generator_cpp -I/home/aldayk/redback_ws/src/robot_localization/include -I/usr/include/eigen3 -isystem /opt/ros/galactic/include 
+CXX_INCLUDES = -I/home/aldayk/AV-NMP-Motion-Estimation-Mapping/redback_ws/build/robot_localization/rosidl_generator_cpp -I/home/aldayk/AV-NMP-Motion-Estimation-Mapping/redback_ws/src/robot_localization/include -I/usr/include/eigen3 -isystem /opt/ros/galactic/include 
 

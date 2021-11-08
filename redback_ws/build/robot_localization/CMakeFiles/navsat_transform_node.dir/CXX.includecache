@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/aldayk/redback_ws/src/robot_localization/include/robot_localization/navsat_transform.hpp
+/home/aldayk/AV-NMP-Motion-Estimation-Mapping/redback_ws/src/robot_localization/include/robot_localization/navsat_transform.hpp
 robot_localization/srv/set_datum.hpp
 -
 robot_localization/srv/to_ll.hpp
@@ -40,7 +40,7 @@ memory
 string
 -
 
-/home/aldayk/redback_ws/src/robot_localization/src/navsat_transform_node.cpp
+/home/aldayk/AV-NMP-Motion-Estimation-Mapping/redback_ws/src/robot_localization/src/navsat_transform_node.cpp
 rclcpp/rclcpp.hpp
 -
 robot_localization/navsat_transform.hpp

@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/aldayk/redback_ws/install/robot_localization")
+  set(CMAKE_INSTALL_PREFIX "/home/aldayk/AV-NMP-Motion-Estimation-Mapping/redback_ws/install/robot_localization")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
